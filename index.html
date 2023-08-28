@@ -93,6 +93,7 @@ function setUpClickListener(map) {
 			//map.addObject(reverseGeocodeResult);
             ui.addBubble(new H.ui.InfoBubble(item.position, {
                 content: 
+				'<font color="#FF0000">title :</font>'+item.title +'<br>'+
 				'<font color="#FF0000">label :</font>'+item.address.label +'<br>'+ 
 				'<font color="#FF0000">countryCode:</font>' +item.address.countryCode +'<br>'+
 				'<font color="#FF0000">countryName:</font>'+item.address.countryName +'<br>'+ 
